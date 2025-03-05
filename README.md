@@ -38,7 +38,6 @@
 <div align="center">
     <img src="assets/screenshots/main.png" width="280" alt="主界面"/>
     <img src="assets/screenshots/download.png" width="280" alt="下载页面"/>
-    <img src="assets/screenshots/end.png" width="280" alt="完成界面"/>
 </div>
 
 ### Android 用户
