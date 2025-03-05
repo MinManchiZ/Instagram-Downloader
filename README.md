@@ -10,11 +10,19 @@
         <img src="https://img.shields.io/badge/平台-Windows%20%7C%20Android-lightgrey.svg" alt="Platform"/>
         <img src="https://img.shields.io/badge/下载量-1k-brightgreen.svg" alt="Downloads"/>
         <img src="https://img.shields.io/badge/Stars-⭐⭐⭐⭐⭐-yellow.svg" alt="Rating"/>
+        <img src="https://img.shields.io/badge/维护状态-活跃-success.svg" alt="Status"/>
     </p>
     <p>
         <img src="assets/icons/windows.png" width="30" alt="Windows"/>
         <img src="assets/icons/android.png" width="30" alt="Android"/>
+        <img src="assets/icons/python.png" width="30" alt="Python"/>
+        <img src="assets/icons/instagram.png" width="30" alt="Instagram"/>
     </p>
+</div>
+
+<div align="center">
+    <h3>🌟 为什么选择 Instagram Downloader Pro? 🌟</h3>
+    <p>简单 • 快速 • 安全 • 免费</p>
 </div>
 
 ## ✨ 功能特性
@@ -44,7 +52,15 @@
 
 ### Android 用户
 1. 功能开发中……即将上线。
+2. 
+## 🎯 开发路线图
 
+- [ ] Android 版本发布
+- [ ] 批量下载优化
+- [ ] 暗黑模式支持
+- [ ] 多语言支持
+- [ ] 下载速度优化
+- [ ] 云同步功能
 ### 开发者安装
 ```bash
 git clone https://github.com/your-username/instagram-downloader.git
@@ -60,6 +76,42 @@ pip install -r requirements.txt
 - beautifulsoup4
 - pillow
 - instaloader
+
+## 🛠️ 技术栈详解
+
+### 核心框架
+- [PyQt5](https://www.riverbankcomputing.com/software/pyqt/) - Qt的Python绑定
+  - 现代化UI组件
+  - 强大的信号槽机制
+  - 跨平台支持
+- [Kivy](https://kivy.org/) - Android版本开发框架
+  - 原生触控支持
+  - 硬件加速渲染
+  - Material Design风格
+
+### 网络请求
+- [Requests](https://requests.readthedocs.io/) - 优雅的HTTP库
+  - 自动保持会话
+  - 智能重试机制
+  - 代理支持
+
+### 数据处理
+- [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/) - HTML解析
+- [Pillow](https://python-pillow.org/) - 图像处理
+- [Instaloader](https://instaloader.github.io/) - Instagram API封装
+
+## 📊 性能优化
+
+### 下载优化
+- 多线程并发下载
+- 断点续传支持
+- 智能任务队列
+- 内存使用优化
+  
+### UI性能
+- 延迟加载机制
+- 图片缓存系统
+- 异步操作处理
 
 ## 📖 使用指南
 
@@ -84,16 +136,34 @@ pip install -r requirements.txt
 - 批量下载选项
 - 文件命名规则
 
-## 🔍 常见问题
+## 🔧 故障排除
+
+<details>
+<summary>1. 下载速度慢怎么办？</summary>
+
+- 检查网络连接
+- 尝试使用代理
+- 调整并发下载数
+- 选择合适的服务器节点
+</details>
+
+<details>
+<summary>2. 安装失败如何解决？</summary>
+
+- 确保系统满足最低要求
+- 以管理员身份运行安装程序
+- 关闭杀毒软件
+- 清理系统临时文件
+</details>
 
 <details>
 <summary>应用支持下载私密账户内容吗？</summary>
-不支持。本应用仅支持下载公开账户的媒体内容。
+暂时不支持。本应用仅支持下载公开账户的媒体内容。
 </details>
 
 <details>
 <summary>如何更改下载目录？</summary>
-在设置页面中可以自定义下载目录路径。
+在设置页面中可以自定义下载目录路径，默认下载到软件存放目录。
 </details>
 
 <details>
@@ -104,6 +174,39 @@ pip install -r requirements.txt
 3. 尝试使用代理
 4. 查看错误日志
 </details>
+
+
+## 🔗 相关资源
+
+### 用户资源
+- [PyQt5教程](https://build-system.fman.io/pyqt5-tutorial)
+- [Kivy文档](https://kivy.org/doc/stable/)
+- [Python多线程编程](https://docs.python.org/3/library/threading.html)
+- [Instagram API文档](https://developers.facebook.com/docs/instagram)
+
+### 社区支持
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/instagram-api)
+- [Reddit r/Python](https://www.reddit.com/r/Python/)
+- [Python中文社区](https://python-china.org/)
+
+## 📈 项目统计
+
+![GitHub stars](https://img.shields.io/github/stars/your-username/instagram-downloader)
+![GitHub forks](https://img.shields.io/github/forks/your-username/instagram-downloader)
+![GitHub issues](https://img.shields.io/github/issues/your-username/instagram-downloader)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/your-username/instagram-downloader)
+
+## 🤝 加入社区
+
+- [Telegram群组](https://t.me/instagramdownloader)
+- [Discord服务器](https://discord.gg/instagramdownloader)
+- [微信公众号](docs/wechat_qr.png)
+
+## 🌟 特别鸣谢
+
+- [@contributor1](https://github.com/contributor1) - 核心功能开发
+- [@contributor2](https://github.com/contributor2) - UI优化
+- [开源社区](https://opensource.org/) - 持续支持
 
 ## 📝 更新日志
 
