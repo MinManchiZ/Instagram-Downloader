@@ -14,9 +14,6 @@
     </p>
     <p>
         <img src="assets/icons/windows.png" width="30" alt="Windows"/>
-        <img src="assets/icons/android.png" width="30" alt="Android"/>
-        <img src="assets/icons/python.png" width="30" alt="Python"/>
-        <img src="assets/icons/instagram.png" width="30" alt="Instagram"/>
     </p>
 </div>
 
