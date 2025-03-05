@@ -31,7 +31,7 @@
 ## 📥 安装说明
 
 ### Windows 用户
-1. 从 [Release](https://github.com/your-username/instagram-downloader/releases) 页面下载最新版本
+1. 从 [Release]([https://github.com/your-username/instagram-downloader/releases](https://github.com/MinManchiZ/Instagram-Downloader.git)) 页面下载最新版本
 2. 双击运行 `InstagramDownloader.exe`
 ## 📱 应用界面展示
 
