@@ -60,7 +60,7 @@
 - [ ] 云同步功能
 ### 开发者安装
 ```bash
-git clone https://github.com/your-username/instagram-downloader.git
+git clone https://github.com/MinManchiZ/Instagram-Downloader.git
 cd instagram-downloader
 pip install -r requirements.txt
 ```
